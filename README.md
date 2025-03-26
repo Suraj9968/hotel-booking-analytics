@@ -3,7 +3,10 @@
 This project implements a hotel booking analytics system with a retrieval-augmented question answering (RAG) capability. It allows users to extract insights from booking data and ask natural language questions through a REST API.
 
 Here are some screenshots of the App running 
-
+<img width="1710" alt="analytics" src="https://github.com/Suraj9968/hotel-booking-analytics/blob/main/Screenshots/Screenshot%202025-03-26%20182316.png">
+<img width="1710" alt="rag_QA" src="https://github.com/Suraj9968/hotel-booking-analytics/blob/main/Screenshots/Screenshot%202025-03-26%20182409.png">
+<img width="1710" alt="Query_history" src="https://github.com/Suraj9968/hotel-booking-analytics/blob/main/Screenshots/Screenshot%202025-03-26%20182435.png">
+<img width="1710" alt="Health" src="https://github.com/Suraj9968/hotel-booking-analytics/blob/main/Screenshots/Screenshot%202025-03-26%20182453.png">
 
 ## Features
 
