@@ -2,6 +2,9 @@
 
 This project implements a hotel booking analytics system with a retrieval-augmented question answering (RAG) capability. It allows users to extract insights from booking data and ask natural language questions through a REST API.
 
+Here are some screenshots of the App running 
+
+
 ## Features
 
 - **Data Processing**: Clean and preprocess hotel booking data from CSV files
@@ -156,23 +159,4 @@ The system consists of four main components:
 - **LLM**: Google Gemini
 - **API Framework**: FastAPI
 - **Frontend**: Streamlit
-- **Environment Management**: Python-dotenv
 
-## Future Improvements
-
-- Add authentication and rate limiting to the API
-- Implement more advanced analytics and visualizations
-- Optimize vector embedding for better question answering
-- Add user feedback collection in the frontend
-- Support for uploading new data through the frontend
-
-## Troubleshooting
-
-- If you encounter errors related to the Google API key, make sure it's correctly set in the `.env` file
-- For vector database issues, try deleting the `data/vector_db` directory and running `python RAG_QA.py --setup_only` again
-- If the API doesn't start, check if all dependencies are installed correctly
-- If the frontend can't connect to the API, ensure the API server is running and the `API_URL` is set correctly
-
-## License
-
-This project is provided for educational purposes only. 
