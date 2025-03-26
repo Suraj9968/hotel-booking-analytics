@@ -1,0 +1,27 @@
+{
+  "rag_evaluation": {
+    "questions_tested": 15,
+    "questions_with_accuracy_score": 3,
+    "average_accuracy": 0.625,
+    "average_response_time": 1.24260303179423,
+    "min_response_time": 0.42562055587768555,
+    "max_response_time": 3.783527374267578
+  },
+  "api_evaluation": {
+    "analytics_endpoint": {
+      "requests": 20,
+      "success_rate": 1.0,
+      "average_response_time": 2.0512089252471926
+    },
+    "ask_endpoint": {
+      "requests": 20,
+      "success_rate": 1.0,
+      "average_response_time": 2.701775598526001
+    },
+    "health_endpoint": {
+      "requests": 20,
+      "success_rate": 1.0,
+      "average_response_time": 2.4413628935813905
+    }
+  }
+}

@@ -1,0 +1,17 @@
+pandas
+numpy
+sqlite3
+matplotlib
+seaborn
+tqdm
+chromadb
+sentence-transformers
+google-generativeai
+argparse
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+streamlit
+plotly
+requests 

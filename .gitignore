@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment and virtual environment
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Vector database
+data/vector_db/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+log/
+logs/
+
+# Local configuration
+config.local.yaml
+
+# API keys and secrets
+.env.local
+secrets.yaml
+
+# System Files
+.DS_Store
+Thumbs.db 
