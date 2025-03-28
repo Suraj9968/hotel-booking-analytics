@@ -48,13 +48,13 @@ except ValueError as e:
 df['adr'] = pd.to_numeric(df['adr'], errors='coerce')
 df['adr'].fillna(0, inplace=True)
 
-# e) Remove Duplicates (Commented out as per request)
+
 # initial_rows = len(df)
 # df.drop_duplicates(inplace=True)
 # duplicates_removed = initial_rows - len(df)
 # print(f"\nNumber of duplicate rows removed: {duplicates_removed}")
 # print(f"Number of rows after removing duplicates: {len(df)}")
-print("\nDuplicate removal step skipped as per request.")
+
 
 
 # f) Feature Engineering: Calculate 'total_stay_duration' and 'revenue'
@@ -80,7 +80,7 @@ conn = sqlite3.connect(db_filepath) # Connect to database in 'data' folder
 
 df.to_sql('bookings_table', conn, if_exists='replace', index=False)
 
-# c) Create Indices for Faster Querying (Bonus - Performance)
+# c) Create Indices for Faster Querying
 cursor = conn.cursor()
 cursor.execute("CREATE INDEX idx_arrival_date ON bookings_table (arrival_date)")
 cursor.execute("CREATE INDEX idx_hotel ON bookings_table (hotel)")
